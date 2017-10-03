@@ -3,7 +3,7 @@ title: "INFO 370A HW 1: Review of Prerequisite Knowledge"
 output: html_notebook
 ---
 
-Name: *TODO*
+Name: Trevor Bruecher
 
 This is a R Notebook. 
 Execute this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
