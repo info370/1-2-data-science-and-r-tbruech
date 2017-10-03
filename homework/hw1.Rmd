@@ -143,27 +143,27 @@ boston <- Boston
 View(boston) # Viewing data
 
 #5.2
-tract_house <- filter(boston, chas == 1) %>%
-        arrange(-crim) %>%
-        head(5) %>%
-        select(boston, medv)
-        median()
+print(Tract <- filter(boston, chas == 1) %>%
+  arrange(-crim) %>%
+  head(5) %>%
+  select(medv))
 
 #5.3
-median.tract_house <- filter(boston, chas == 0) %>%
-        arrange(-crim) %>%
-        head(5) %>%
-        select(medv)
+print(NoTract <- filter(boston, chas == 0) %>%
+  arrange(-crim) %>%
+  head(5) %>%
+  select(medv))
+
 
 ```
 What does a row in the Boston dataset represent?
 5.1) The housing value for one town/suburb of Boston.
 
 What is the median value of owner-occupied homes for the 5 neighborhoods with the highest per capita crime rate that tract bound the Charles River? (hint: see Chapter 10)
-5.2) *TODO*
+5.2) 50
 
 What is the median value of owner-occupied homes for the 5 neighborhoods with the highest per capita crime rate that do NOT tract bound the Charles River?
-5.3) *TODO*
+5.3) 8.8
 
 
 Last question: How long did this assignment take you?
